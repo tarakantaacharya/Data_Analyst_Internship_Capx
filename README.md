@@ -57,7 +57,7 @@ REDDIT_USER_AGENT=your_user_agent
 Run the **data_scraping_py.ipynb** script to scrape data from Reddit. This script fetches posts from specific stock-related subreddits and saves the data to a CSV file.
 
 ```bash
-python scraper.py
+python data_scraping_py.ipynb
 ```
 
 ### **Step 2: Data Preprocessing**
@@ -65,7 +65,7 @@ python scraper.py
 After scraping the data, use the **data_preprocessing_py.ipynb** script to preprocess and clean the text data. The script performs tasks such as tokenization, stopword removal, and sentiment analysis.
 
 ```bash
-python data_preprocessing.py
+python data_preprocessing_py.ipynb
 ```
 
 This will save the cleaned and preprocessed data to a file named `reddit_stock_data_posts_cleaned.csv`.
@@ -75,7 +75,7 @@ This will save the cleaned and preprocessed data to a file named `reddit_stock_d
 To train the machine learning model, run the **model_training_py.ipynb** script. This script will split the preprocessed data into training and testing sets, train a **Logistic Regression** model, and evaluate its performance.
 
 ```bash
-python model_training.py
+python model_training_py.ipynb
 ```
 
 ### **Step 4: Model Evaluation**
