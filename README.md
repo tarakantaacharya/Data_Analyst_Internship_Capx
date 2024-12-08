@@ -116,6 +116,10 @@ The model's performance is evaluated using several metrics:
 
 These metrics help assess how well the model can predict stock price movements based on Reddit discussions.
 
+
+## **Visulization**
+
+The model_data and its performance metrics are visualized perfectly in DataVisualization.pdf and MetricsVisualization.pdf
 ---
 
 ### **Final Steps**
