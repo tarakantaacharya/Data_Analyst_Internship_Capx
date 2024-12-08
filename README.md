@@ -8,7 +8,7 @@ This project involves scraping data from Reddit related to stock discussions, pe
 - [Usage](#usage)
 - [Demonstration](#demonstration)
 - [Model Evaluation](#model-evaluation)
-- [License](#license)
+- [Visualization](#data-visualization)
 
 ## **Overview**
 The project uses the **PRAW** library to scrape Reddit data, particularly related to stock discussions. The scraped data is then preprocessed to extract meaningful features and used to train a machine learning model for predicting stock price movements based on sentiment analysis of Reddit posts.
